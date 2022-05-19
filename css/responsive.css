@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    header nav a{
+        margin-left: 4px;
+    }
+    header nav .lupa{
+        display: none;
+    }
+    .filme-principal{
+        background-size: 100% 100%;
+    }
+}
